@@ -1,0 +1,23 @@
+{
+"name": "gcucinoPatch",
+"version": "1.0",
+"description": "giustizia sarà fatta",
+"manifest_version": 3,
+"permissions": [
+	"scripting"
+],
+"content_scripts": [
+    {
+      "matches": ["https://profile.intra.42.fr/blocs/35/coalitions/126",
+	  "https://profile.intra.42.fr/blocs/35/coalitions/void*"],
+      "js": ["content.js"]
+    },
+	{
+	  "matches": ["https://profile.intra.42.fr/blocs/35/coalitions"],
+      "js": ["content2.js"]
+	}
+  ],
+"background": {
+	"service_worker": "background.js"
+	}
+}
