@@ -1,7 +1,7 @@
 {
 "name": "gcucinoPatch",
 "version": "1.0",
-"description": "giustizia sarà fatta",
+"description": "cambia il capo dei void nella pagina delle coalizioni",
 "manifest_version": 3,
 "permissions": [
 	"scripting"
