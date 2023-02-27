@@ -30,7 +30,7 @@ function changeText() {
   img = globalData[1].getElementsByClassName("user-image")[0];
   img.style = "background-image: url(https://cdn.intra.42.fr/users/047c71bc5a58e0fbcf4a678115f1fce1/gicucino.gif)"; 
   }
-console.log("giustizia sarà fatta");
+
 changeText();
 
 // Ascolta l'evento di aggiornamento della pagina per cambiare il testo quando necessario.
